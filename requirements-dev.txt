@@ -1,0 +1,3 @@
+# Local validation only. The submitted C++ solution has no dependencies.
+pydantic>=2,<3
+shapely>=2,<3

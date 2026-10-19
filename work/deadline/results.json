@@ -1,0 +1,47 @@
+[
+  {
+    "case": 0,
+    "sites": 120,
+    "offices": 4,
+    "multi_skill_workers": false,
+    "budget": 0.01,
+    "wall_seconds": 0.01598274998832494,
+    "valid": true
+  },
+  {
+    "case": 1,
+    "sites": 5000,
+    "offices": 20,
+    "multi_skill_workers": false,
+    "budget": 0.01,
+    "wall_seconds": 0.016052749997470528,
+    "valid": true
+  },
+  {
+    "case": 2,
+    "sites": 2500,
+    "offices": 30,
+    "multi_skill_workers": false,
+    "budget": 0.15,
+    "wall_seconds": 0.15654233300301712,
+    "valid": true
+  },
+  {
+    "case": 3,
+    "sites": 900,
+    "offices": 15,
+    "multi_skill_workers": true,
+    "budget": 0.3,
+    "wall_seconds": 0.3044940000108909,
+    "valid": true
+  },
+  {
+    "case": 4,
+    "sites": 1000,
+    "offices": 8,
+    "multi_skill_workers": false,
+    "budget": 0.35,
+    "wall_seconds": 0.3573070839920547,
+    "valid": true
+  }
+]

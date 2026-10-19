@@ -1,0 +1,33 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.dSYM/
+.venv/
+venv/
+.env
+.env.*
+
+# Locally built executables and the default run output.
+/solver
+/solver.exe
+/solution.json
+
+# Preserve reproducible tools and history; exclude downloaded packages and scratch runs.
+/work/*
+!/work/*.py
+!/work/*.cpp
+!/work/*.md
+!/work/*.csv
+!/work/submission-v1.zip
+!/work/verification-v1.json
+!/work/deadline/
+/work/deadline/*
+!/work/deadline/results.json
+
+# Keep final measurements; intermediate search experiments remain local.
+/results/*
+!/results/final_scores.csv
+!/results/comparison_v2.csv
+!/results/verification.json
+!/results/v2-final-*.json
+!/results/v2-final-*.log

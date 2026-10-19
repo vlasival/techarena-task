@@ -1,0 +1,120 @@
+{
+  "version": 2,
+  "source_sha256": "9f4093c1ffa2f3c2fc97460026df16d14e996195439641e2b3d6926c69697e8c",
+  "archive_sha256": "c109a0ca52b6f9630032aa7472a4eb40460d103e02730300e4652c28580e075c",
+  "time_budget": 270,
+  "clock_includes_parsing": true,
+  "deadline_regression": [
+    {
+      "case": 0,
+      "sites": 120,
+      "offices": 4,
+      "multi_skill_workers": false,
+      "budget": 0.01,
+      "wall_seconds": 0.01598274998832494,
+      "valid": true
+    },
+    {
+      "case": 1,
+      "sites": 5000,
+      "offices": 20,
+      "multi_skill_workers": false,
+      "budget": 0.01,
+      "wall_seconds": 0.016052749997470528,
+      "valid": true
+    },
+    {
+      "case": 2,
+      "sites": 2500,
+      "offices": 30,
+      "multi_skill_workers": false,
+      "budget": 0.15,
+      "wall_seconds": 0.15654233300301712,
+      "valid": true
+    },
+    {
+      "case": 3,
+      "sites": 900,
+      "offices": 15,
+      "multi_skill_workers": true,
+      "budget": 0.3,
+      "wall_seconds": 0.3044940000108909,
+      "valid": true
+    },
+    {
+      "case": 4,
+      "sites": 1000,
+      "offices": 8,
+      "multi_skill_workers": false,
+      "budget": 0.35,
+      "wall_seconds": 0.3573070839920547,
+      "valid": true
+    }
+  ],
+  "randomized_tests_passed": 67,
+  "interval_optimizer_comparisons_passed": 80,
+  "count_load_regression_score": 298,
+  "asan_ubsan_passed": true,
+  "official_validation": [
+    {
+      "instance": "instance0",
+      "v1_objective": 5245125.042609074,
+      "objective": 5625419.905633281,
+      "change_percent": 7.2504441731104485,
+      "seconds": 270.0,
+      "valid": true,
+      "opened_offices": 7,
+      "assigned_sites": 386,
+      "min_task_load": 48,
+      "max_task_load": 48
+    },
+    {
+      "instance": "instance1",
+      "v1_objective": 32.229957487864645,
+      "objective": 32.229957487864645,
+      "change_percent": 0.0,
+      "seconds": 270.0,
+      "valid": true,
+      "opened_offices": 2,
+      "assigned_sites": 46,
+      "min_task_load": 36,
+      "max_task_load": 36
+    },
+    {
+      "instance": "instance2",
+      "v1_objective": 5.626351596202081,
+      "objective": 5.626351596202081,
+      "change_percent": 0.0,
+      "seconds": 0.000378583,
+      "valid": true,
+      "opened_offices": 1,
+      "assigned_sites": 29,
+      "min_task_load": 44,
+      "max_task_load": 44
+    },
+    {
+      "instance": "instance3",
+      "v1_objective": 148334.58128731168,
+      "objective": 166098.39491801633,
+      "change_percent": 11.97550394287199,
+      "seconds": 270.0,
+      "valid": true,
+      "opened_offices": 4,
+      "assigned_sites": 283,
+      "min_task_load": 472,
+      "max_task_load": 472
+    },
+    {
+      "instance": "instance4",
+      "v1_objective": 18892.096152264905,
+      "objective": 18414.700584507333,
+      "change_percent": -2.5269592315744105,
+      "seconds": 270.0,
+      "valid": true,
+      "opened_offices": 4,
+      "assigned_sites": 153,
+      "min_task_load": 25,
+      "max_task_load": 72
+    }
+  ]
+}
